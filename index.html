@@ -1,0 +1,98 @@
+<!DOCTYPE html 5>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>QUIZ</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+          
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 topRow">
+                <br>
+                <br>
+                <h1>Simple Quiz</h1>
+                <p>Test your knowledge</p>
+                <br>
+                <br>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3">
+
+            </div>
+
+            <div class="col-md-6">
+                <div>
+                    <div id="results"></div>
+                    <form name="quizForm" onsubmit="return submitAnswers()">
+
+                        <br>
+                        <h3>What's the name of the strip club owned by Tony Soprano?</h3>
+                        <input type="radio" name="q1" value="a" id="q1a">a. &lt;Bing Star&gt;<br>
+                        <input type="radio" name="q1" value="b" id="q1b">b. &lt;Bada Bing&gt;<br>
+                        <input type="radio" name="q1" value="c" id="q1c">c. &lt;Jerseys Bests&gt;<br>
+                        <input type="radio" name="q1" value="d" id="q1d">d. &lt;Crazy Horse&gt;<br>
+                        <br>
+                        <br>
+                        <h3>Who kill Ralphie?</h3>
+                        <input type="radio" name="q2" value="a" id="q2a">a. &lt;Paulie&gt;<br>
+                        <input type="radio" name="q2" value="b" id="q2b">b. &lt;Tony&gt;<br>
+                        <input type="radio" name="q2" value="c" id="q2c">c. &lt;Johny&gt;<br>
+                        <input type="radio" name="q2" value="d" id="q2d">d. &lt;Syl&gt;<br>
+                        <br>
+                        <br>
+                        <h3>What's the name of Carmela Soprano platonic love?</h3>
+                        <input type="radio" name="q3" value="a" id="q3a">a. &lt;Adriane&gt;<br>
+                        <input type="radio" name="q3" value="b" id="q3b">b. &lt;Chris&gt;<br>
+                        <input type="radio" name="q3" value="c" id="q3c">c. &lt;Antonio&gt;<br>
+                        <input type="radio" name="q4" value="d" id="q3d">d. &lt;Furio&gt;<br>
+                        <br>
+                        <br>
+                        <h3>Does Johny cooks Vito's favorite pancakes?</h3>
+                        <input type="radio" name="q4" value="a" id="q4a">a. &lt;True&gt;<br>
+                        <input type="radio" name="q4" value="b" id="q4b">b. &lt;False&gt;<br>
+                        <br>
+                        <br>
+                        <h3>What's the name of the movie Christopher and Tony produce?</h3>
+                        <input type="radio" name="q5" value="a" id="q5a">a. &lt;The Zombie Thug&gt;<br>
+                        <input type="radio" name="q5" value="b" id="q5b">b. &lt;Boardwalk Empire&gt;<br>
+                        <input type="radio" name="q5" value="c" id="q5c">c. &lt;Rise of Al Capone&gt;<br>
+                        <input type="radio" name="q5" value="d" id="q5d">d. &lt;Cleaver&gt;<br>
+                        <br><br>
+                        <input type="submit" value="Submit Answers">
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
